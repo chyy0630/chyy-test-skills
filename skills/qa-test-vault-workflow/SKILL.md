@@ -1,6 +1,7 @@
 ---
 name: qa-test-vault-workflow
 description: 维护按 release 迭代组织的 QA 测试知识库：需求梳理与 A/B/C/D 确认点、测试点、测试用例、冒烟用例、xmind 导出、测试点审核与执行记录。Use when the user mentions 测试知识库、需求梳理、需求口径、确认点、测试点、写用例、冒烟用例、测试点转 xmind、用例审核、执行记录, or asks to create or organize test artifacts under RELEASE-* directories.
+version: 0.0.1
 ---
 
 # QA 测试知识库工作流

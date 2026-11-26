@@ -2,7 +2,7 @@
 
 一个把「需求 → 需求梳理 → 测试点 → 测试用例 → 冒烟用例 → xmind」整条链路固化下来的 Agent Skill。适用于用 Obsidian / Markdown 按 release 迭代管理测试资产的团队，也可以直接当作个人测试知识库的工作规范。
 
-Skill 名：`qa-test-vault-workflow`
+Skill 名：`qa-test-vault-workflow` · 版本：`v0.0.1`
 
 ## 解决什么问题
 
