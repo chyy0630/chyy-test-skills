@@ -62,21 +62,21 @@ qa-test-vault-workflow/
 Qoder 用户级（所有项目可用）：
 
 ```bash
-git clone <本仓库地址> cyy-skills
-cp -r cyy-skills/skills/qa-test-vault-workflow ~/.qoder/skills/
+git clone https://github.com/chyy0630/chyy-test-skills.git
+cp -r chyy-test-skills/skills/qa-test-vault-workflow ~/.qoder/skills/
 ```
 
 项目级（只对当前仓库生效）：
 
 ```bash
 mkdir -p .qoder/skills
-cp -r cyy-skills/skills/qa-test-vault-workflow .qoder/skills/
+cp -r chyy-test-skills/skills/qa-test-vault-workflow .qoder/skills/
 ```
 
-也可以用 skills CLI 安装（仓库公开后）：
+也可以用 skills CLI 安装：
 
 ```bash
-npx skills add <你的GitHub用户名>/cyy-skills@qa-test-vault-workflow -y
+npx skills add chyy0630/chyy-test-skills@qa-test-vault-workflow -y
 ```
 
 安装后重开会话，或执行 `/skills reload`，用 `/qa-test-vault-workflow` 调用。
